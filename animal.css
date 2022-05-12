@@ -1,0 +1,360 @@
+/* style sheet created by: Mahlon Stephenson, on 11.10.21 */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #554;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(100, 200, 100);
+}
+
+/* style for body specifices background color*/
+body {
+    text-align: center;
+    font-weight: 550;
+    width: auto;
+    height:auto;
+    background-image:url(images/hex.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: repeat-y;
+    color: whitesmoke;
+}
+
+/* modify header background */
+header {
+    background-color: rgba(100, 200, 100, 0.4);
+    background-size: 100%;
+}
+
+/* modify class content */
+.content {
+    text-align:center;
+    color:inherit;
+    padding-top: 15%;
+    font-size: 25px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgba(100, 200, 100, 0.4);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgba(12, 186, 166, 0.4);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  font-weight: 550;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #0CBAA6;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(100, 200, 100);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgba(12, 186, 166, 0.4);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+    background-color: rgba(100, 200, 100, 0.4);
+	font-size: .70em;
+	text-align: left;
+	margin: auto;
+    padding: auto;
+    display: block;
+    max-width: 100%;
+    bottom: 0;
+}
+
+.content-animation {
+    filter: saturate(400%);
+    color: black;
+    animation-name: ani-1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-color: black;
+}
+
+@keyframes ani-1 {
+    0%  {color: rgba(100, 100, 150, 1);}
+    10% {color: rgba(150, 100, 150, 1);}
+    20% {color: rgba(200, 100, 150, 1);}
+    30% {color: rgba(150, 100, 150, 1);}
+    40% {color: rgba(100, 100, 150, 1);}
+    50% {color: rgba(100, 50, 150, 1);}
+    60% {color: rgba(100, 100, 150, 1);}
+    70% {color: rgba(100, 150, 150, 1);}
+    80% {color: rgba(100, 100, 150, 1);}
+    90% {color: rgba(100, 50, 150, 1);}
+    90% {color: rgba(100, 100, 150, 1);}
+    100% {color: rgba(100, 100, 150, 1);}
+}
+
+
+.info-bar {
+    display: grid;
+    width: auto;
+    text-align: left;
+    height: auto;
+    grid-row: auto;
+}
+
+.gi-myp {
+    background-color: rgb(50, 150, 50);
+    margin: 1px;
+    padding: 2px;
+    grid-column: 1;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+}
+
+.gi-cys {
+    background-color: rgb(50, 150, 50);
+    margin: 1px;
+    padding: 2px;
+    grid-column: 2;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+}
+
+.gi-nai {
+    background-color: rgb(50, 150, 50);
+    margin: 1px;
+    padding: 2px;
+    grid-column: 3;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+}
+
+.gi-pursuit {
+    background-color: rgb(50, 150, 50);
+    margin: 1px;
+    padding: 2px;
+    grid-column: 4;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+}
+
+.gi-simplicity {
+    background-color: rgb(50, 150, 50);
+    margin: 1px;
+    padding: 2px;
+    grid-row: 2;
+    grid-column: 1;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    width: auto;
+}
+
+.gi-concision {
+    background-color: rgb(50, 150, 50);
+    margin: 1px;
+    padding: 2px;
+    grid-row: 2;
+    grid-column: 2;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    width: auto;
+}
+
+.gi-conclusion {
+    background-color: rgb(50, 150, 50);
+    margin: 1px;
+    padding: 2px;
+    grid-row: 2;
+    grid-column: 3;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    width: auto;
+}
+
+.gi-photo {
+    background-color: rgb(50, 150, 50);
+    margin: 1px;
+    padding: 2px;
+    grid-row: 2;
+    grid-column: 4;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    width: auto;
+}
+
+.mypimg {
+    float: left;
+    padding-right: 5px;
+    padding-bottom: 1px;
+}
+
+.cysimg {
+    float: left;
+    padding-right: 5px;
+    padding-bottom: 1px;
+}
+
+.naiimg {
+    float: left;
+    padding-right: 5px;
+    padding-bottom: 1px;
+}
+
+.pursuitimg {
+    float: left;
+    padding-right: 5px;
+    padding-bottom: 1px;
+}
+
+.simplicityimg {
+    float: left;
+    padding-right: 5px;
+    padding-bottom: 1px;
+}
+
+.concisionimg {
+    float: left;
+    padding-right: 5px;
+    padding-bottom: 1px;
+}
+
+.conclusionimg {
+    float: left;
+    padding-right: 5px;
+    padding-bottom: 1px;
+}
+
+.photoimg {
+    float: left;
+    padding-right: 5px;
+    padding-bottom: 1px;
+}
+
+.info-subbar {
+    display: grid;
+    width: auto;
+    text-align: left;
+    height: auto;
+    grid-row: auto;
+    margin: 1px;
+}
+
+.gi-ostrich {
+    background-color: rgb(50, 150, 50);
+    margin: 1px;
+    padding: 2px;
+    grid-row: 1;
+    grid-column: 1;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    width: auto;
+}
+
+.gi-goat {
+    background-color: rgb(50, 150, 50);
+    margin: 1px;
+    padding: 2px;
+    grid-row: 1;
+    grid-column: 2;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    width: auto;
+}

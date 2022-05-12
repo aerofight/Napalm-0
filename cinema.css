@@ -1,0 +1,145 @@
+body {
+    text-align: center;
+    font-weight: 550;
+    width: auto;
+    height:auto;
+    background-image:url(images/animation-gallery/circle1.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+    animation: ani1 5s;
+    animation-iteration-count: infinite;
+}
+
+header {
+    background-color: transparent;
+    background-size: 100%;
+}
+.topnav {
+    background-color: transparent;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: transparent;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: transparent;
+  color: white;
+}
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown {
+    background-size: 200px 200px;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  font-weight: 550;
+  padding: 14px 16px;
+  background-color: transparent;
+    background-image: url(images/horizontal-menu-icon.png);
+    background-size: cover;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropbtn:hover {background-image: url(images/red-horizontal-menu-icon.png)}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: transparent;
+}
+
+.dropbtn:active {background-image: url(images/red-horizontal-menu-icon.png)}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  box-shadow: transparent;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: transparent;
+    color: red;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+@keyframes ani1 {
+  0% {
+    background-image:url(images/animation-gallery/circle1.png);
+  }
+  20% {
+    background-image:url(images/animation-gallery/circle2.png);
+  }
+    40% {
+    background-image:url(images/animation-gallery/circle3.png);
+}
+    60% {
+    background-image:url(images/animation-gallery/circle4.png);
+    }
+    80% {
+    background-image:url(images/animation-gallery/square1.png);
+    }
+    100% {
+    background-image:url(images/animation-gallery/circle3.png);
+    }
+}
