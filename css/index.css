@@ -23,8 +23,3 @@ header {
     font-family: consolas, sans-serif;
     filter: blur(1px);
 }
-.map {
-    max-width:100%;
-    height:auto;
-    filter: blur(1px);
-}
