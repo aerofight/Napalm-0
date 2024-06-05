@@ -2,6 +2,7 @@
 body {
     background-color: black;
     font-size: 3vw;
+    font-family: monospace;
 }
 .scanline {
     width: 100%;
@@ -20,6 +21,5 @@ header {
     font-size: 300%;
     font-weight: bold;
     color: limegreen;
-    font-family: consolas, sans-serif;
     filter: blur(1px);
 }
